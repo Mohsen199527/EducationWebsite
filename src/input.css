@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+    *{
+        transition: all 0.3s linear;
+        scroll-behavior:smooth;
+        font-family: "Cairo", sans-serif;
+    }
+    a{
+        @apply appearance-none list-none cursor-pointer
+             hover:text-gray-500 text-xl
+    }
+
+    .static-cards{
+        @apply  grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4  
+                gap-3 py-10 mx-auto w-3/4 justify-center 
+                items-center content-center
+    }
+    .static-card{
+        @apply bg-[#4C2950] rounded-lg py-6 px-4 gap-2 md:w-auto  
+                flex flex-row items-center justify-around
+                text-right hover:opacity-80 cursor-pointer
+                w-32 sm:w-auto 
+    }
+    .static-card i{
+        @apply text-[#fff] text-2xl lg:text-5xl;
+    }
+
+    .static-card .info h3{
+        @apply text-[#fff] text-xl lg:text-3xl;
+    }
+    .static-card .info h5{
+        @apply text-gray-400 text-sm lg:text-xl;
+    }
+
+}
