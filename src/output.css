@@ -734,11 +734,6 @@ a:hover {
   margin-right: auto;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -825,6 +820,10 @@ a:hover {
   justify-content: flex-start;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -857,6 +856,10 @@ a:hover {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .bg-gray-50 {
@@ -909,6 +912,11 @@ a:hover {
   padding-bottom: 1.25rem;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -937,11 +945,6 @@ a:hover {
   line-height: 1.75rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -959,20 +962,6 @@ a:hover {
 .text-\[\#892ddf\] {
   --tw-text-opacity: 1;
   color: rgb(137 45 223 / var(--tw-text-opacity));
-}
-
-.text-\[\#4C2950\] {
-  --tw-text-opacity: 1;
-  color: rgb(76 41 80 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[\#1D0C58\] {
-  --tw-text-opacity: 1;
-  color: rgb(29 12 88 / var(--tw-text-opacity));
 }
 
 .shadow-md {
