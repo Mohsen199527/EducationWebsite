@@ -36,5 +36,12 @@
     .static-card .info h5{
         @apply text-gray-400 text-sm lg:text-xl;
     }
+    
+    .no-scroll{
+        @apply overflow-y-hidden;
+    }
 
+    .menu-btn{
+        
+    }
 }
